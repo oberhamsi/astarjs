@@ -1,10 +1,11 @@
-include('ringo/unittest');
+var assert = require('assert');
+
 var astar = require('astarjs');
 
 exports.testSomething = function () {
-    assertTrue(true);
+    assert.isTrue(true);
 };
 
 if (require.main == module.id) {
-    require('ringo/unittest').run(exports);
+    require('test').run(exports);
 }
