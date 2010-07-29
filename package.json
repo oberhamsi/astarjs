@@ -1,0 +1,10 @@
+{
+    "name": "geoip",
+    "version": "0.1.0",
+    "description": "Get Location for IP, wrapper around http://maxmind.com Geo Database",
+    "keywords": ["internet"],
+    "author": "Simon Oberhammer <simon@nekapuzer.at>",
+    "jars": [
+        "jars/geolite.jar"
+    ]
+}
