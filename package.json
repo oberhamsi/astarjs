@@ -1,10 +1,10 @@
 {
-    "name": "geoip",
+    "name": "astarjs",
     "version": "0.1.0",
-    "description": "Get Location for IP, wrapper around http://maxmind.com Geo Database",
-    "keywords": ["internet"],
-    "author": "Simon Oberhammer <simon@nekapuzer.at>",
-    "jars": [
-        "jars/geolite.jar"
+    "description": "AStar",
+    "keywords": ["utility"],
+    "authors": [
+      "Simon Oberhammer <simon@nekapuzer.at>",
+      "Marijn Haverbeke <marijnh@gmail.com>"
     ]
 }
